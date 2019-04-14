@@ -2,3 +2,8 @@
 
 [node name="Node2D" type="Node2D"]
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 1472, 416 )
+current = true
+zoom = Vector2( 2, 2 )
+

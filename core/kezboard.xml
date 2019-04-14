@@ -318,4 +318,136 @@
     <position>13.5, 5.5</position>
     <size>1.5, 1</size>
   </ButtonDef>
+  
+  <!-- Middle top segment -->
+
+  <ButtonDef defName="PrintScreen">
+    <position>15.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="ScrollLock">
+    <position>16.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Pause">
+    <position>17.5, 0</position>
+  </ButtonDef>
+
+  <!-- Navigation set -->
+
+  <ButtonDef defName="Insert">
+    <position>15.5, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Home">
+    <position>16.5, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="PageUp">
+    <position>17.5, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Delete">
+    <position>15.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="End">
+    <position>16.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="PageDown">
+    <position>17.5, 2.5</position>
+  </ButtonDef>
+
+  <!-- Navigation set -->
+
+  <ButtonDef defName="UpArrow">
+    <position>16.5, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="LeftArrow">
+    <position>15.5, 5.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="DownArrow">
+    <position>16.5, 5.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="RightArrow">
+    <position>17.5, 5.5</position>
+  </ButtonDef>
+
+  <!-- Number pad set -->
+
+  <ButtonDef defName="NumLock">
+    <position>19, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="NumSlash">
+    <position>20, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="NumStar">
+    <position>21, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="NumMinus">
+    <position>22, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num7">
+    <position>19, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num8">
+    <position>20, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num9">
+    <position>21, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="NumPlus">
+    <position>22, 2.5</position>
+    <size>1, 2</size>
+  </ButtonDef>
+
+  <ButtonDef defName="Num4">
+    <position>19, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num5">
+    <position>20, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num6">
+    <position>21, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num1">
+    <position>19, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num2">
+    <position>20, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Num3">
+    <position>21, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="NumEnter">
+    <position>22, 4.5</position>
+    <size>1, 2</size>
+  </ButtonDef>
+
+  <ButtonDef defName="Num0">
+    <position>19, 5.5</position>
+    <size>2, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="NumPeriod">
+    <position>21, 5.5</position>
+  </ButtonDef>
+  
 </Defs>
