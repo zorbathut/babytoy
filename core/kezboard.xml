@@ -1,0 +1,321 @@
+<Defs>
+  <!-- Row 1, main -->
+  
+  <ButtonDef defName="Escape">
+    <position>0, 0</position>
+  </ButtonDef>
+  
+  <ButtonDef defName="F1">
+    <position>2, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F2">
+    <position>3, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F3">
+    <position>4, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F4">
+    <position>5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F5">
+    <position>6.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F6">
+    <position>7.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F7">
+    <position>8.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F8">
+    <position>9.5, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F9">
+    <position>11, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F10">
+    <position>12, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F11">
+    <position>13, 0</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F12">
+    <position>14, 0</position>
+  </ButtonDef>
+
+  <!-- Row 2, main -->
+
+  <ButtonDef defName="Quoteleft">
+    <position>0, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key1">
+    <position>1, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key2">
+    <position>2, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key3">
+    <position>3, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key4">
+    <position>4, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key5">
+    <position>5, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key6">
+    <position>6, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key7">
+    <position>7, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key8">
+    <position>8, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key9">
+    <position>9, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Key0">
+    <position>10, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Minus">
+    <position>11, 1.5</position>
+  </ButtonDef>
+  
+  <ButtonDef defName="Equal">
+    <position>12, 1.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Backspace">
+    <position>13, 1.5</position>
+    <size>2, 1</size>
+  </ButtonDef>
+
+  <!-- Row 3, main -->
+
+  <ButtonDef defName="Tab">
+    <position>0, 2.5</position>
+    <size>1.5, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="Q">
+    <position>1.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="W">
+    <position>2.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="E">
+    <position>3.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="R">
+    <position>4.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="T">
+    <position>5.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Y">
+    <position>6.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="U">
+    <position>7.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="I">
+    <position>8.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="O">
+    <position>9.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="P">
+    <position>10.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Braceleft">
+    <position>11.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Braceright">
+    <position>12.5, 2.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Backslash">
+    <position>13.5, 2.5</position>
+    <size>1.5, 1</size>
+  </ButtonDef>
+
+  <!-- Row 4, main -->
+
+  <ButtonDef defName="CapsLock">
+    <position>0, 3.5</position>
+    <size>1.75, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="A">
+    <position>1.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="S">
+    <position>2.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="D">
+    <position>3.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="F">
+    <position>4.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="G">
+    <position>5.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="H">
+    <position>6.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="J">
+    <position>7.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="K">
+    <position>8.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="L">
+    <position>9.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="SemiColon">
+    <position>10.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Quote">
+    <position>11.75, 3.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Enter">
+    <position>12.75, 3.5</position>
+    <size>2.25, 1</size>
+  </ButtonDef>
+
+  <!-- Row 5, main -->
+
+  <ButtonDef defName="LeftShift">
+    <position>0, 4.5</position>
+    <size>2.25, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="Z">
+    <position>2.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="X">
+    <position>3.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="C">
+    <position>4.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="V">
+    <position>5.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="B">
+    <position>6.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="N">
+    <position>7.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="M">
+    <position>8.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Comma">
+    <position>9.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Period">
+    <position>10.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Slash">
+    <position>11.25, 4.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="RightShift">
+    <position>12.25, 4.5</position>
+    <size>2.75, 1</size>
+  </ButtonDef>
+
+  <!-- Row 6, main -->
+
+  <ButtonDef defName="LeftControl">
+    <position>0, 5.5</position>
+    <size>1.5, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="LeftWindows">
+    <position>1.5, 5.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="LeftAlt">
+    <position>2.5, 5.5</position>
+    <size>1.25, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="Space">
+    <position>3.75, 5.5</position>
+    <size>6.5, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="RightAlt">
+    <position>10.25, 5.5</position>
+    <size>1.25, 1</size>
+  </ButtonDef>
+
+  <ButtonDef defName="RightWindows">
+    <position>11.5, 5.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="Menu">
+    <position>12.5, 5.5</position>
+  </ButtonDef>
+
+  <ButtonDef defName="RightControl">
+    <position>13.5, 5.5</position>
+    <size>1.5, 1</size>
+  </ButtonDef>
+</Defs>
