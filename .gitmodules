@@ -1,0 +1,3 @@
+[submodule "thirdparty/def"]
+	path = thirdparty/def
+	url = https://github.com/zorbathut/def.git
