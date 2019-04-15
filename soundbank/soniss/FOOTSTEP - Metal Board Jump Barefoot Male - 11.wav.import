@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FOOTSTEP - Metal Board Jump Barefoot Male - 11.wav-a13b7c1f6a28597934c790b8647f21c7.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/FOOTSTEP - Metal Board Jump Barefoot Male - 11.wav"
+dest_files=[ "res://.import/FOOTSTEP - Metal Board Jump Barefoot Male - 11.wav-a13b7c1f6a28597934c790b8647f21c7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/StartSelect,UI,set93,talking tones,bright percussion,playful,toonish,light ambience,select.wav-c710f5da795caeedacb5753b6721e5cd.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/StartSelect,UI,set93,talking tones,bright percussion,playful,toonish,light ambience,select.wav"
+dest_files=[ "res://.import/StartSelect,UI,set93,talking tones,bright percussion,playful,toonish,light ambience,select.wav-c710f5da795caeedacb5753b6721e5cd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

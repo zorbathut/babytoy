@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Alliance-AssaultRifle_05-Single_Shot-04.wav-22f64235041bbbbc2970395de3683e0b.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Alliance-AssaultRifle_05-Single_Shot-04.wav"
+dest_files=[ "res://.import/Alliance-AssaultRifle_05-Single_Shot-04.wav-22f64235041bbbbc2970395de3683e0b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

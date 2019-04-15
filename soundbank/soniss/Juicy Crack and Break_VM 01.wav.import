@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Juicy Crack and Break_VM 01.wav-20f3b70be137b2cc8e0b5f020cb72751.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Juicy Crack and Break_VM 01.wav"
+dest_files=[ "res://.import/Juicy Crack and Break_VM 01.wav-20f3b70be137b2cc8e0b5f020cb72751.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

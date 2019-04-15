@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Burp_Short_Fienup_009.wav-d634fd815645e717d4e64744beca142b.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Burp_Short_Fienup_009.wav"
+dest_files=[ "res://.import/Burp_Short_Fienup_009.wav-d634fd815645e717d4e64744beca142b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

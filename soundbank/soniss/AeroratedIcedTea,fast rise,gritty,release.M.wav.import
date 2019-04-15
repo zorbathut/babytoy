@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/AeroratedIcedTea,fast rise,gritty,release.M.wav-c7d247d5792f1a0d5899000e356ab8d8.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/AeroratedIcedTea,fast rise,gritty,release.M.wav"
+dest_files=[ "res://.import/AeroratedIcedTea,fast rise,gritty,release.M.wav-c7d247d5792f1a0d5899000e356ab8d8.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

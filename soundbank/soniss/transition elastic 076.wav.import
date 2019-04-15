@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/transition elastic 076.wav-4d74dc618e7ae3f774ba91d42817e567.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/transition elastic 076.wav"
+dest_files=[ "res://.import/transition elastic 076.wav-4d74dc618e7ae3f774ba91d42817e567.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

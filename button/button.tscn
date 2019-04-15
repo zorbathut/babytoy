@@ -8,3 +8,6 @@
 texture = ExtResource( 1 )
 centered = false
 
+[node name="audio" type="AudioStreamPlayer" parent="."]
+volume_db = -10.0
+

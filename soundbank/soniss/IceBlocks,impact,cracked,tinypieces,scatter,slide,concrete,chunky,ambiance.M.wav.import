@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/IceBlocks,impact,cracked,tinypieces,scatter,slide,concrete,chunky,ambiance.M.wav-4873e506f9d3575cbf5d62837c17b767.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/IceBlocks,impact,cracked,tinypieces,scatter,slide,concrete,chunky,ambiance.M.wav"
+dest_files=[ "res://.import/IceBlocks,impact,cracked,tinypieces,scatter,slide,concrete,chunky,ambiance.M.wav-4873e506f9d3575cbf5d62837c17b767.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

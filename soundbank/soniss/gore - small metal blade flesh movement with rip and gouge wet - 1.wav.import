@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - small metal blade flesh movement with rip and gouge wet - 1.wav-b809224be95ef292a00ef6de901b7b94.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - small metal blade flesh movement with rip and gouge wet - 1.wav"
+dest_files=[ "res://.import/gore - small metal blade flesh movement with rip and gouge wet - 1.wav-b809224be95ef292a00ef6de901b7b94.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

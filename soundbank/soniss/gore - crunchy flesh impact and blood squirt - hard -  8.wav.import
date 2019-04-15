@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - crunchy flesh impact and blood squirt - hard -  8.wav-1736a00fb0a95b571e15bfe76749c999.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - crunchy flesh impact and blood squirt - hard -  8.wav"
+dest_files=[ "res://.import/gore - crunchy flesh impact and blood squirt - hard -  8.wav-1736a00fb0a95b571e15bfe76749c999.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ice,Creak,Sheet,Crunch,Step,Snow,Various10.wav-df4dd336a18faf982ed7ec7f9ccfd1d6.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Ice,Creak,Sheet,Crunch,Step,Snow,Various10.wav"
+dest_files=[ "res://.import/Ice,Creak,Sheet,Crunch,Step,Snow,Various10.wav-df4dd336a18faf982ed7ec7f9ccfd1d6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

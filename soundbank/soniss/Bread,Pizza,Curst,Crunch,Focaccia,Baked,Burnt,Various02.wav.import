@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bread,Pizza,Curst,Crunch,Focaccia,Baked,Burnt,Various02.wav-c587a97c1e78a45c28c504d7f5cb7561.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Bread,Pizza,Curst,Crunch,Focaccia,Baked,Burnt,Various02.wav"
+dest_files=[ "res://.import/Bread,Pizza,Curst,Crunch,Focaccia,Baked,Burnt,Various02.wav-c587a97c1e78a45c28c504d7f5cb7561.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

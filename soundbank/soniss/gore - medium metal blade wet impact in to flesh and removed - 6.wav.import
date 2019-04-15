@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - medium metal blade wet impact in to flesh and removed - 6.wav-00587bdfa88fb6f3dc4270b889433d43.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - medium metal blade wet impact in to flesh and removed - 6.wav"
+dest_files=[ "res://.import/gore - medium metal blade wet impact in to flesh and removed - 6.wav-00587bdfa88fb6f3dc4270b889433d43.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

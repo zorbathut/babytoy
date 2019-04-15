@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Slice_Crunchy_Fienup_002.wav-2852f6f4a374ea90a1fb3a5d141835b3.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Slice_Crunchy_Fienup_002.wav"
+dest_files=[ "res://.import/Slice_Crunchy_Fienup_002.wav-2852f6f4a374ea90a1fb3a5d141835b3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

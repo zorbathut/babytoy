@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Astro Droid 26.wav-2dbc17c271505fd4a352d7d9938fe197.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Astro Droid 26.wav"
+dest_files=[ "res://.import/Astro Droid 26.wav-2dbc17c271505fd4a352d7d9938fe197.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Seq 2.27 whoosh #1 96 HK1.wav-1bb847d93acdf5ba0ffabe7df686ab29.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Seq 2.27 whoosh #1 96 HK1.wav"
+dest_files=[ "res://.import/Seq 2.27 whoosh #1 96 HK1.wav-1bb847d93acdf5ba0ffabe7df686ab29.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

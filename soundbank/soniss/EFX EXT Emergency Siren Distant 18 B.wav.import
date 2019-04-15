@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/EFX EXT Emergency Siren Distant 18 B.wav-9246467a8d41787be9904e96b7148087.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/EFX EXT Emergency Siren Distant 18 B.wav"
+dest_files=[ "res://.import/EFX EXT Emergency Siren Distant 18 B.wav-9246467a8d41787be9904e96b7148087.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

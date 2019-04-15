@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FOOTSTEP - Metal Plate Run Barefoot Male - 14.wav-e365b9e782912089a8f8a0f7a9c39093.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/FOOTSTEP - Metal Plate Run Barefoot Male - 14.wav"
+dest_files=[ "res://.import/FOOTSTEP - Metal Plate Run Barefoot Male - 14.wav-e365b9e782912089a8f8a0f7a9c39093.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

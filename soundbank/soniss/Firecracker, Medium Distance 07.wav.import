@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Firecracker, Medium Distance 07.wav-61cfd3c8b8702110433a53b1820ad997.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Firecracker, Medium Distance 07.wav"
+dest_files=[ "res://.import/Firecracker, Medium Distance 07.wav-61cfd3c8b8702110433a53b1820ad997.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

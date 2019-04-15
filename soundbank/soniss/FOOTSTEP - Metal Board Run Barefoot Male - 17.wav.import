@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FOOTSTEP - Metal Board Run Barefoot Male - 17.wav-db16d67586b9ebd34c14d935d5ee362f.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/FOOTSTEP - Metal Board Run Barefoot Male - 17.wav"
+dest_files=[ "res://.import/FOOTSTEP - Metal Board Run Barefoot Male - 17.wav-db16d67586b9ebd34c14d935d5ee362f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Epona,bark,light,vocalization,light,wavering.M.wav-634a7a4347c4e88b8bc587fb094d6fb0.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Epona,bark,light,vocalization,light,wavering.M.wav"
+dest_files=[ "res://.import/Epona,bark,light,vocalization,light,wavering.M.wav-634a7a4347c4e88b8bc587fb094d6fb0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

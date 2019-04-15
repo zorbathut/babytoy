@@ -16,6 +16,12 @@ class Bootstrap : Node
     // this is slow but it doesn't matter because keyboards don't have that many buttons
     List<ButtonInfo> buttons = new List<ButtonInfo>();
 
+    class AudioInfo
+    {
+        public AudioStream stream;
+        public float weight;
+    }
+
     public override void _Ready()
     {
         base._Ready();
@@ -39,6 +45,12 @@ class Bootstrap : Node
 
         if (!processed)
         {
+            var samples = new List<AudioInfo>();
+            foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".wav")))
+            {
+                samples.Add(new AudioInfo() { stream = ResourceLoader.Load(fname) as AudioStream, weight = 1 });
+            }
+
             var buttonresource = ResourceLoader.Load("res://button/button.tscn") as PackedScene;
             var buttonexample = buttonresource.Instance() as Node2D;
             var buttonsize = (buttonexample.FindNode("image") as Sprite).Texture.GetSize();
@@ -58,6 +70,11 @@ class Bootstrap : Node
                 {
                     buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.png") as Texture;
                 }
+
+                var sample = samples.RandomElementByWeight(ai => ai.weight);
+                samples.Remove(sample);
+
+                buttoninstance.FindNode<AudioStreamPlayer>("audio").Stream = sample.stream;
 
                 KeyList key = (KeyList)0;
                 if (button.linkage != (KeyList)0)
@@ -98,6 +115,14 @@ class Bootstrap : Node
                 return;
             
             Dbg.Inf($"{key}");
+
+            foreach (var button in buttons)
+            {
+                if (button.key == key)
+                {
+                    button.node.FindNode<AudioStreamPlayer>("audio").Play();
+                }
+            }
         }
     }
 }

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/HKAP2 Seq1.1 Hits 4.wav-5c8a0c241bbc57b791ff6eeaa810e546.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/HKAP2 Seq1.1 Hits 4.wav"
+dest_files=[ "res://.import/HKAP2 Seq1.1 Hits 4.wav-5c8a0c241bbc57b791ff6eeaa810e546.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

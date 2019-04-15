@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - flesh guts gore impact blood squirt wet - medium - 104.wav-9703d87e237636cd768732baaeae4c23.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - flesh guts gore impact blood squirt wet - medium - 104.wav"
+dest_files=[ "res://.import/gore - flesh guts gore impact blood squirt wet - medium - 104.wav-9703d87e237636cd768732baaeae4c23.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

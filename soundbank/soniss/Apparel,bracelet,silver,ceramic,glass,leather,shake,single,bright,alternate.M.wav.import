@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Apparel,bracelet,silver,ceramic,glass,leather,shake,single,bright,alternate.M.wav-6991fd32ad90eda8cb5c79dd3f1f5514.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Apparel,bracelet,silver,ceramic,glass,leather,shake,single,bright,alternate.M.wav"
+dest_files=[ "res://.import/Apparel,bracelet,silver,ceramic,glass,leather,shake,single,bright,alternate.M.wav-6991fd32ad90eda8cb5c79dd3f1f5514.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

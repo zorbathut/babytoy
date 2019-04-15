@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/HKAP2 Seq1.2 SWT 10.wav-7e49725b4de7193e7aba161e77968cbd.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/HKAP2 Seq1.2 SWT 10.wav"
+dest_files=[ "res://.import/HKAP2 Seq1.2 SWT 10.wav-7e49725b4de7193e7aba161e77968cbd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

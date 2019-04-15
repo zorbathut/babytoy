@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/transition t05 hard 002.wav-1ce9ea3e5df441500a741c427a22eb55.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/transition t05 hard 002.wav"
+dest_files=[ "res://.import/transition t05 hard 002.wav-1ce9ea3e5df441500a741c427a22eb55.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

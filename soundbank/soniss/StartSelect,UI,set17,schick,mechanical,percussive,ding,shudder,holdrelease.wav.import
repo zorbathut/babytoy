@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/StartSelect,UI,set17,schick,mechanical,percussive,ding,shudder,holdrelease.wav-4c123ffb87c515fbd63631ecd749495b.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/StartSelect,UI,set17,schick,mechanical,percussive,ding,shudder,holdrelease.wav"
+dest_files=[ "res://.import/StartSelect,UI,set17,schick,mechanical,percussive,ding,shudder,holdrelease.wav-4c123ffb87c515fbd63631ecd749495b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

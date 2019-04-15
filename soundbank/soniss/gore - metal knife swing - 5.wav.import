@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - metal knife swing - 5.wav-5f28ee7034e2bbfce19c2ade2f9c526a.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - metal knife swing - 5.wav"
+dest_files=[ "res://.import/gore - metal knife swing - 5.wav-5f28ee7034e2bbfce19c2ade2f9c526a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

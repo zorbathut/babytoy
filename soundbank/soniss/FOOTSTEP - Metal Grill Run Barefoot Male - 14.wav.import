@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FOOTSTEP - Metal Grill Run Barefoot Male - 14.wav-b0f891cdfa3c62c75b0637157ab165fa.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/FOOTSTEP - Metal Grill Run Barefoot Male - 14.wav"
+dest_files=[ "res://.import/FOOTSTEP - Metal Grill Run Barefoot Male - 14.wav-b0f891cdfa3c62c75b0637157ab165fa.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

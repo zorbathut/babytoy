@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/HKAP2 Seq1.2 Whoosh 5.wav-f32bedef1286097dddd6eb3600ae74c2.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/HKAP2 Seq1.2 Whoosh 5.wav"
+dest_files=[ "res://.import/HKAP2 Seq1.2 Whoosh 5.wav-f32bedef1286097dddd6eb3600ae74c2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Leeks,Break,Bone,Crack,Body,Arm13.wav-28d438d50a4ff7bb09e9ff7fd43f411f.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Leeks,Break,Bone,Crack,Body,Arm13.wav"
+dest_files=[ "res://.import/Leeks,Break,Bone,Crack,Body,Arm13.wav-28d438d50a4ff7bb09e9ff7fd43f411f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

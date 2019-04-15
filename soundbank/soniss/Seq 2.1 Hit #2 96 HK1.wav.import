@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Seq 2.1 Hit #2 96 HK1.wav-7e166a6e4bae269ad2000cab672b3e41.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Seq 2.1 Hit #2 96 HK1.wav"
+dest_files=[ "res://.import/Seq 2.1 Hit #2 96 HK1.wav-7e166a6e4bae269ad2000cab672b3e41.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

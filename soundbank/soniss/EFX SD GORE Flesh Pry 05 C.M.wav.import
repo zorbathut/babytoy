@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/EFX SD GORE Flesh Pry 05 C.M.wav-d235f5b4771489d8fb4b0654b4dd4ad4.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/EFX SD GORE Flesh Pry 05 C.M.wav"
+dest_files=[ "res://.import/EFX SD GORE Flesh Pry 05 C.M.wav-d235f5b4771489d8fb4b0654b4dd4ad4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

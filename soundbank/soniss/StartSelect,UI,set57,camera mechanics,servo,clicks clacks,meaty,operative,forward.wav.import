@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/StartSelect,UI,set57,camera mechanics,servo,clicks clacks,meaty,operative,forward.wav-ee7c615a97e406182c32a645c99f1a37.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/StartSelect,UI,set57,camera mechanics,servo,clicks clacks,meaty,operative,forward.wav"
+dest_files=[ "res://.import/StartSelect,UI,set57,camera mechanics,servo,clicks clacks,meaty,operative,forward.wav-ee7c615a97e406182c32a645c99f1a37.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

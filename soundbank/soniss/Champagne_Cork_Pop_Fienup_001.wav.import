@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Champagne_Cork_Pop_Fienup_001.wav-62d8a0e55fb5c3c14deb199a73d6ab4a.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Champagne_Cork_Pop_Fienup_001.wav"
+dest_files=[ "res://.import/Champagne_Cork_Pop_Fienup_001.wav-62d8a0e55fb5c3c14deb199a73d6ab4a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/EFX SD Heads Hit Together 02.wav-b03ad72710ef9c1b34e7167628962afd.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/EFX SD Heads Hit Together 02.wav"
+dest_files=[ "res://.import/EFX SD Heads Hit Together 02.wav-b03ad72710ef9c1b34e7167628962afd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

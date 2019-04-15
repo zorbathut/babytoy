@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Abacus 02.wav-c542df38712ce402e372c64e9a2d9b46.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Abacus 02.wav"
+dest_files=[ "res://.import/Abacus 02.wav-c542df38712ce402e372c64e9a2d9b46.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

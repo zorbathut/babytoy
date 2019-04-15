@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Knife_Sword_Drop_Wood_Fienup_001.wav-07be0c03c7e806468d63560ead49a18b.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Knife_Sword_Drop_Wood_Fienup_001.wav"
+dest_files=[ "res://.import/Knife_Sword_Drop_Wood_Fienup_001.wav-07be0c03c7e806468d63560ead49a18b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

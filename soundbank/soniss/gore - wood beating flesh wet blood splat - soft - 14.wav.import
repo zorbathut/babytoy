@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gore - wood beating flesh wet blood splat - soft - 14.wav-a71be08a7393c4418b743be2d03bdd7b.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/gore - wood beating flesh wet blood splat - soft - 14.wav"
+dest_files=[ "res://.import/gore - wood beating flesh wet blood splat - soft - 14.wav-a71be08a7393c4418b743be2d03bdd7b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

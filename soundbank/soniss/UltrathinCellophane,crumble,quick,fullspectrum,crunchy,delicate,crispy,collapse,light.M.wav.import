@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/UltrathinCellophane,crumble,quick,fullspectrum,crunchy,delicate,crispy,collapse,light.M.wav-a5d9919551441db59b937985b9cd1b8e.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/UltrathinCellophane,crumble,quick,fullspectrum,crunchy,delicate,crispy,collapse,light.M.wav"
+dest_files=[ "res://.import/UltrathinCellophane,crumble,quick,fullspectrum,crunchy,delicate,crispy,collapse,light.M.wav-a5d9919551441db59b937985b9cd1b8e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

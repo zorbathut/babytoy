@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Crepitus,flex,pop,snap,crack,multiple,hands,lighttodeep,gritty,MS.wav-63b75242a3ffeaa2e9a2e8a0e759c5ea.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Crepitus,flex,pop,snap,crack,multiple,hands,lighttodeep,gritty,MS.wav"
+dest_files=[ "res://.import/Crepitus,flex,pop,snap,crack,multiple,hands,lighttodeep,gritty,MS.wav-63b75242a3ffeaa2e9a2e8a0e759c5ea.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

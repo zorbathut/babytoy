@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FencingFoil,swoosh,roomambience,lively,quick,aggressive.M.wav-ba39f777a2b4cdd0e3bd0f33dd13d2d6.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/FencingFoil,swoosh,roomambience,lively,quick,aggressive.M.wav"
+dest_files=[ "res://.import/FencingFoil,swoosh,roomambience,lively,quick,aggressive.M.wav-ba39f777a2b4cdd0e3bd0f33dd13d2d6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

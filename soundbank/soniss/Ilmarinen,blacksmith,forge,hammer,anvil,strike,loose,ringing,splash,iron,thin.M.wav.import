@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ilmarinen,blacksmith,forge,hammer,anvil,strike,loose,ringing,splash,iron,thin.M.wav-6bdae40c82001081bc7798b1ac4a1b60.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Ilmarinen,blacksmith,forge,hammer,anvil,strike,loose,ringing,splash,iron,thin.M.wav"
+dest_files=[ "res://.import/Ilmarinen,blacksmith,forge,hammer,anvil,strike,loose,ringing,splash,iron,thin.M.wav-6bdae40c82001081bc7798b1ac4a1b60.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

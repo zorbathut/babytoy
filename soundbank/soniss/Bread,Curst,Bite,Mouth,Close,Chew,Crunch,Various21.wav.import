@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bread,Curst,Bite,Mouth,Close,Chew,Crunch,Various21.wav-6a86cf165866c756fe48bdd8ad5bc829.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Bread,Curst,Bite,Mouth,Close,Chew,Crunch,Various21.wav"
+dest_files=[ "res://.import/Bread,Curst,Bite,Mouth,Close,Chew,Crunch,Various21.wav-6a86cf165866c756fe48bdd8ad5bc829.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

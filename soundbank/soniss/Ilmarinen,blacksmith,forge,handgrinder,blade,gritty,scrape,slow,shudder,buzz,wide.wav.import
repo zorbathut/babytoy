@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ilmarinen,blacksmith,forge,handgrinder,blade,gritty,scrape,slow,shudder,buzz,wide.wav-611d95debff71b4e1f18fe9d26c65804.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Ilmarinen,blacksmith,forge,handgrinder,blade,gritty,scrape,slow,shudder,buzz,wide.wav"
+dest_files=[ "res://.import/Ilmarinen,blacksmith,forge,handgrinder,blade,gritty,scrape,slow,shudder,buzz,wide.wav-611d95debff71b4e1f18fe9d26c65804.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

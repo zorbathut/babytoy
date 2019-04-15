@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/TheLibrarybyMTC_UI_Alert_01.wav-c1dfb07f66a7d74dff09e8edb9c85497.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/TheLibrarybyMTC_UI_Alert_01.wav"
+dest_files=[ "res://.import/TheLibrarybyMTC_UI_Alert_01.wav-c1dfb07f66a7d74dff09e8edb9c85497.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

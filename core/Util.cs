@@ -1,4 +1,5 @@
 ﻿using Godot;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -100,5 +101,24 @@ static class Util
         {
             return node.GetName();
         }
+    }
+
+    public static T RandomElementByWeight<T>(this IEnumerable<T> container, Func<T, float> weight)
+    {
+        T current = default(T);
+        float cweight = 0;
+
+        foreach (var element in container)
+        {
+            float tweight = weight(element);
+            if (tweight / (cweight + tweight) >= Rand.Value)
+            {
+                current = element;
+            }
+
+            cweight += tweight;
+        }
+
+        return current;
     }
 }

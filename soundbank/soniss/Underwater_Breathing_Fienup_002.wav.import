@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Underwater_Breathing_Fienup_002.wav-2d127ec8a2ed21ac8969ee793221e882.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/Underwater_Breathing_Fienup_002.wav"
+dest_files=[ "res://.import/Underwater_Breathing_Fienup_002.wav-2d127ec8a2ed21ac8969ee793221e882.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

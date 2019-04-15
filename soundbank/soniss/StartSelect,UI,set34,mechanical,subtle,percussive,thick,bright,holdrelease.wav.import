@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/StartSelect,UI,set34,mechanical,subtle,percussive,thick,bright,holdrelease.wav-4f709d290283b34ad4cfe59e46042bf6.sample"
+
+[deps]
+
+source_file="res://soundbank/soniss/StartSelect,UI,set34,mechanical,subtle,percussive,thick,bright,holdrelease.wav"
+dest_files=[ "res://.import/StartSelect,UI,set34,mechanical,subtle,percussive,thick,bright,holdrelease.wav-4f709d290283b34ad4cfe59e46042bf6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
