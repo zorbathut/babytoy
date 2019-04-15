@@ -45,7 +45,7 @@ class Bootstrap : Node
         }
         parser.Finish();
 
-        if (!Engine.IsEditorHint())
+        if (!OS.IsDebugBuild())
         {
             OS.WindowFullscreen = true;
         }
