@@ -50,5 +50,8 @@
     <Compile Include="core\*.cs" />
     <Compile Include="thirdparty\*\src\*.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="core\*.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

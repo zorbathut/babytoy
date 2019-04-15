@@ -1,0 +1,13 @@
+<Defs>
+  <RandomDistributionDef defName="Color">
+    <min>0.6, 1</min>
+    <max>0.8, 1</max>
+    <rate>3, 10</rate>
+  </RandomDistributionDef>
+
+  <RandomDistributionDef defName="Position">
+    <min>-2, -1</min>
+    <max>1, 2</max>
+    <rate>3, 10</rate>
+  </RandomDistributionDef>
+</Defs>

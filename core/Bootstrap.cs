@@ -13,12 +13,12 @@ class Bootstrap : Node
         public ButtonDef def;
         public Node2D node;
 
-        public RandomCurve r = new RandomCurve();
-        public RandomCurve g = new RandomCurve();
-        public RandomCurve b = new RandomCurve();
+        public RandomCurve r = new RandomCurve(RandomDistribution.Color);
+        public RandomCurve g = new RandomCurve(RandomDistribution.Color);
+        public RandomCurve b = new RandomCurve(RandomDistribution.Color);
 
-        public RandomCurve x = new RandomCurve();
-        public RandomCurve y = new RandomCurve();
+        public RandomCurve x = new RandomCurve(RandomDistribution.Position);
+        public RandomCurve y = new RandomCurve(RandomDistribution.Position);
     }
     // this is slow but it doesn't matter because keyboards don't have that many buttons
     List<ButtonInfo> buttons = new List<ButtonInfo>();
@@ -110,7 +110,9 @@ class Bootstrap : Node
 
         foreach (var button in buttons)
         {
-            button.node.FindNode<Sprite>("image").SelfModulate = new Color(button.r.Evaluate(), button.g.Evaluate(), button.b.Evaluate());
+            var image = button.node.FindNode<Sprite>("image");
+            image.SelfModulate = new Color(button.r.Evaluate(), button.g.Evaluate(), button.b.Evaluate());
+            image.Offset = new Vector2(button.x.Evaluate(), button.y.Evaluate());
         }
     }
 
