@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_lemmy_wendy_falls_out_of_pipe.wav-b552e004aab23706e32cac99df7e5fec.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_lemmy_wendy_falls_out_of_pipe.wav"
+dest_files=[ "res://.import/smw_lemmy_wendy_falls_out_of_pipe.wav-b552e004aab23706e32cac99df7e5fec.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

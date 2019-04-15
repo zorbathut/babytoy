@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/9E.wav-daa1a3d408e8d5b605df2cc10f30f043.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/9E.wav"
+dest_files=[ "res://.import/9E.wav-daa1a3d408e8d5b605df2cc10f30f043.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

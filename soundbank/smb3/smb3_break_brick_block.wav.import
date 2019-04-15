@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smb3_break_brick_block.wav-7cfd409b07f8bbb8d8f3d3b70205f355.sample"
+
+[deps]
+
+source_file="res://soundbank/smb3/smb3_break_brick_block.wav"
+dest_files=[ "res://.import/smb3_break_brick_block.wav-7cfd409b07f8bbb8d8f3d3b70205f355.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

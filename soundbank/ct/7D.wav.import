@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/7D.wav-0b52c625c14866f55e6fa02732955fbe.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/7D.wav"
+dest_files=[ "res://.import/7D.wav-0b52c625c14866f55e6fa02732955fbe.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

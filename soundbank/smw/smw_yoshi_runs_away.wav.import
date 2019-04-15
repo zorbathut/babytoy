@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_yoshi_runs_away.wav-3ac984eae969269a8151bbc9a542a9cb.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_yoshi_runs_away.wav"
+dest_files=[ "res://.import/smw_yoshi_runs_away.wav-3ac984eae969269a8151bbc9a542a9cb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

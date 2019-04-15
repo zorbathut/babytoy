@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smb2_game_over.wav-3430af8de935fb70869332391e43b033.sample"
+
+[deps]
+
+source_file="res://soundbank/smb2/smb2_game_over.wav"
+dest_files=[ "res://.import/smb2_game_over.wav-3430af8de935fb70869332391e43b033.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

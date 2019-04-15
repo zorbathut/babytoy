@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_swimming.wav-feea8678ab425acaade39f1b87e67339.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_swimming.wav"
+dest_files=[ "res://.import/smw_swimming.wav-feea8678ab425acaade39f1b87e67339.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

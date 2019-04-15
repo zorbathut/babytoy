@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_magikoopa_beam.wav-a972f548610f9df2b34f0ab8e1c7c66a.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_magikoopa_beam.wav"
+dest_files=[ "res://.import/smw_magikoopa_beam.wav-a972f548610f9df2b34f0ab8e1c7c66a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

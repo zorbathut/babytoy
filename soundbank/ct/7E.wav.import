@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/7E.wav-bc3a8003707bf2c0010edfa58f4fd435.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/7E.wav"
+dest_files=[ "res://.import/7E.wav-bc3a8003707bf2c0010edfa58f4fd435.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

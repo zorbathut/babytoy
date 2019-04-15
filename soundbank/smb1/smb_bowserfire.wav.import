@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smb_bowserfire.wav-44b04eeaff8573bc50f68a64b16f23ab.sample"
+
+[deps]
+
+source_file="res://soundbank/smb1/smb_bowserfire.wav"
+dest_files=[ "res://.import/smb_bowserfire.wav-44b04eeaff8573bc50f68a64b16f23ab.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

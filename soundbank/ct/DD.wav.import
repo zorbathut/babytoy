@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/DD.wav-abe26bc2fd748c85110ad853ed7582ad.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/DD.wav"
+dest_files=[ "res://.import/DD.wav-abe26bc2fd748c85110ad853ed7582ad.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/6E.wav-4496d7de1dcc9cf0560eff24a566ffd5.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/6E.wav"
+dest_files=[ "res://.import/6E.wav-4496d7de1dcc9cf0560eff24a566ffd5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

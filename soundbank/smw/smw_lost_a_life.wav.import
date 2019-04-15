@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_lost_a_life.wav-2df6a8b26bb348ec09b1cd00c71d1bf5.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_lost_a_life.wav"
+dest_files=[ "res://.import/smw_lost_a_life.wav-2df6a8b26bb348ec09b1cd00c71d1bf5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

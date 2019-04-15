@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/6F.wav-f41a98b2f695c3de171ff7605ea8c8cd.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/6F.wav"
+dest_files=[ "res://.import/6F.wav-f41a98b2f695c3de171ff7605ea8c8cd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

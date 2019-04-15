@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smb3_bonus_game_no_match.wav-7681500df2fdae3b21fc72b40ff33350.sample"
+
+[deps]
+
+source_file="res://soundbank/smb3/smb3_bonus_game_no_match.wav"
+dest_files=[ "res://.import/smb3_bonus_game_no_match.wav-7681500df2fdae3b21fc72b40ff33350.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

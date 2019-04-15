@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_stomp_bones.wav-80ea359f9e5a15bdb0b227ef31bcc766.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_stomp_bones.wav"
+dest_files=[ "res://.import/smw_stomp_bones.wav-80ea359f9e5a15bdb0b227ef31bcc766.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

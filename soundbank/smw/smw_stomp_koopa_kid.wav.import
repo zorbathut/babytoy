@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_stomp_koopa_kid.wav-6558ba5ef17d82dc0b2dbc06be4e8793.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_stomp_koopa_kid.wav"
+dest_files=[ "res://.import/smw_stomp_koopa_kid.wav-6558ba5ef17d82dc0b2dbc06be4e8793.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

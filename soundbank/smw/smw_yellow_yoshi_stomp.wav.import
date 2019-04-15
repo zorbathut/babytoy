@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_yellow_yoshi_stomp.wav-4994d205c8feed60bfcbef0d91489b3b.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_yellow_yoshi_stomp.wav"
+dest_files=[ "res://.import/smw_yellow_yoshi_stomp.wav-4994d205c8feed60bfcbef0d91489b3b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_map_castle_crumbles.wav-1ce5477edca2e7a941dd7003f5a8550b.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_map_castle_crumbles.wav"
+dest_files=[ "res://.import/smw_map_castle_crumbles.wav-1ce5477edca2e7a941dd7003f5a8550b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

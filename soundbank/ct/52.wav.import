@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/52.wav-c23455869d616f9b8cce5c11dd5b7c12.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/52.wav"
+dest_files=[ "res://.import/52.wav-c23455869d616f9b8cce5c11dd5b7c12.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

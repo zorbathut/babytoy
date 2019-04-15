@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smb3_vine.wav-8ec57978454fb70999045a13895f11ec.sample"
+
+[deps]
+
+source_file="res://soundbank/smb3/smb3_vine.wav"
+dest_files=[ "res://.import/smb3_vine.wav-8ec57978454fb70999045a13895f11ec.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

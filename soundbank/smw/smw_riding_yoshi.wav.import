@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_riding_yoshi.wav-09d388fede6385f398fbffd530b06359.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_riding_yoshi.wav"
+dest_files=[ "res://.import/smw_riding_yoshi.wav-09d388fede6385f398fbffd530b06359.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

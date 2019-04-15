@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/B0.wav-387806109f19868549333debbe84880d.sample"
+
+[deps]
+
+source_file="res://soundbank/ct/B0.wav"
+dest_files=[ "res://.import/B0.wav-387806109f19868549333debbe84880d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

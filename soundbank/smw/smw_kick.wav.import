@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/smw_kick.wav-e83f23bbec70c9c9b0b75f05d4b616e3.sample"
+
+[deps]
+
+source_file="res://soundbank/smw/smw_kick.wav"
+dest_files=[ "res://.import/smw_kick.wav-e83f23bbec70c9c9b0b75f05d4b616e3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
