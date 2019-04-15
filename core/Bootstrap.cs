@@ -1,9 +1,20 @@
 ﻿using Godot;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 class Bootstrap : Node
 {
     bool processed = false;
+
+    struct ButtonInfo
+    {
+        public KeyList key;
+        public ButtonDef def;
+        public Node2D node;
+    }
+    // this is slow but it doesn't matter because keyboards don't have that many buttons
+    List<ButtonInfo> buttons = new List<ButtonInfo>();
 
     public override void _Ready()
     {
@@ -43,6 +54,32 @@ class Bootstrap : Node
                 {
                     buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.x * 100)}.png") as Texture;
                 }
+                else
+                {
+                    buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.png") as Texture;
+                }
+
+                KeyList key = (KeyList)0;
+                if (button.linkage != (KeyList)0)
+                {
+                    key = button.linkage;
+                }
+                else
+                {
+                    try
+                    {
+                        key = (KeyList)Enum.Parse(typeof(KeyList), button.defName);
+                    }
+                    catch (ArgumentException e)
+                    {
+                        Dbg.Inf($"Failed to parse {button.defName}");
+                    }
+                }
+
+                if (key != (KeyList)0)
+                {
+                    buttons.Add(new ButtonInfo() { key = key, def = button, node = buttoninstance });
+                }
             }
             processed = true;
         }
@@ -57,7 +94,7 @@ class Bootstrap : Node
             // stoooop
             var key = (Godot.KeyList)evekey.Scancode;
 
-            if (!evekey.Pressed)
+            if (!evekey.Pressed || evekey.Echo)
                 return;
             
             Dbg.Inf($"{key}");

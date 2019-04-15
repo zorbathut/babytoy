@@ -174,7 +174,7 @@
 
   <!-- Row 4, main -->
 
-  <ButtonDef defName="CapsLock">
+  <ButtonDef defName="Capslock">
     <position>0, 3.5</position>
     <size>1.75, 1</size>
   </ButtonDef>
@@ -215,11 +215,11 @@
     <position>9.75, 3.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="SemiColon">
+  <ButtonDef defName="Semicolon">
     <position>10.75, 3.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="Quote">
+  <ButtonDef defName="Apostrophe">
     <position>11.75, 3.5</position>
   </ButtonDef>
 
@@ -233,6 +233,7 @@
   <ButtonDef defName="LeftShift">
     <position>0, 4.5</position>
     <size>2.25, 1</size>
+    <linkage>Shift</linkage>
   </ButtonDef>
 
   <ButtonDef defName="Z">
@@ -278,6 +279,7 @@
   <ButtonDef defName="RightShift">
     <position>12.25, 4.5</position>
     <size>2.75, 1</size>
+    <linkage>Shift</linkage>
   </ButtonDef>
 
   <!-- Row 6, main -->
@@ -285,15 +287,18 @@
   <ButtonDef defName="LeftControl">
     <position>0, 5.5</position>
     <size>1.5, 1</size>
+    <linkage>Control</linkage>
   </ButtonDef>
 
   <ButtonDef defName="LeftWindows">
     <position>1.5, 5.5</position>
+    <linkage>134217728</linkage>
   </ButtonDef>
 
   <ButtonDef defName="LeftAlt">
     <position>2.5, 5.5</position>
     <size>1.25, 1</size>
+    <linkage>Alt</linkage>
   </ButtonDef>
 
   <ButtonDef defName="Space">
@@ -304,19 +309,23 @@
   <ButtonDef defName="RightAlt">
     <position>10.25, 5.5</position>
     <size>1.25, 1</size>
+    <linkage>Alt</linkage>
   </ButtonDef>
 
   <ButtonDef defName="RightWindows">
     <position>11.5, 5.5</position>
+    <linkage>134217728</linkage>
   </ButtonDef>
 
   <ButtonDef defName="Menu">
     <position>12.5, 5.5</position>
+    <linkage>Unknown</linkage>
   </ButtonDef>
 
   <ButtonDef defName="RightControl">
     <position>13.5, 5.5</position>
     <size>1.5, 1</size>
+    <linkage>Control</linkage>
   </ButtonDef>
   
   <!-- Middle top segment -->
@@ -331,6 +340,7 @@
 
   <ButtonDef defName="Pause">
     <position>17.5, 0</position>
+    <linkage>Pause</linkage>
   </ButtonDef>
 
   <!-- Navigation set -->
@@ -343,7 +353,7 @@
     <position>16.5, 1.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="PageUp">
+  <ButtonDef defName="Pageup">
     <position>17.5, 1.5</position>
   </ButtonDef>
 
@@ -355,43 +365,48 @@
     <position>16.5, 2.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="PageDown">
+  <ButtonDef defName="Pagedown">
     <position>17.5, 2.5</position>
   </ButtonDef>
 
   <!-- Navigation set -->
 
-  <ButtonDef defName="UpArrow">
+  <ButtonDef defName="Up">
     <position>16.5, 4.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="LeftArrow">
+  <ButtonDef defName="Left">
     <position>15.5, 5.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="DownArrow">
+  <ButtonDef defName="Down">
     <position>16.5, 5.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="RightArrow">
+  <ButtonDef defName="Right">
     <position>17.5, 5.5</position>
   </ButtonDef>
 
   <!-- Number pad set -->
+  
+  <!-- These are heavily broken; support later -->
 
-  <ButtonDef defName="NumLock">
+  
+  <!--
+    
+  <ButtonDef defName="Numlock">
     <position>19, 1.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="NumSlash">
+  <ButtonDef defName="KpDivide">
     <position>20, 1.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="NumStar">
+  <ButtonDef defName="KpMultiply">
     <position>21, 1.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="NumMinus">
+  <ButtonDef defName="KpSubtract">
     <position>22, 1.5</position>
   </ButtonDef>
 
@@ -407,7 +422,7 @@
     <position>21, 2.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="NumPlus">
+  <ButtonDef defName="KpAdd">
     <position>22, 2.5</position>
     <size>1, 2</size>
   </ButtonDef>
@@ -436,7 +451,7 @@
     <position>21, 4.5</position>
   </ButtonDef>
 
-  <ButtonDef defName="NumEnter">
+  <ButtonDef defName="KpEnter">
     <position>22, 4.5</position>
     <size>1, 2</size>
   </ButtonDef>
@@ -449,5 +464,7 @@
   <ButtonDef defName="NumPeriod">
     <position>21, 5.5</position>
   </ButtonDef>
+  
+  -->
   
 </Defs>
