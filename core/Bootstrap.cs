@@ -69,14 +69,7 @@ class Bootstrap : Node
                 GetParent().AddChild(buttoninstance);
                 buttoninstance.Position = button.position * buttonsize;
 
-                if (button.size.y == 1)
-                {
-                    buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.x * 100)}.png") as Texture;
-                }
-                else
-                {
-                    buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.png") as Texture;
-                }
+                buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.outline.png") as Texture;
 
                 var sample = samples.RandomElementByWeight(ai => ai.weight);
                 samples.Remove(sample);
