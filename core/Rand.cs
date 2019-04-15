@@ -7,11 +7,13 @@ static class Rand
 {
     private static Random state = new Random();
 
-    public static float Value
+    public static float Value()
     {
-        get
-        {
-            return (float)state.NextDouble();
-        }
+        return (float)state.NextDouble();
+    }
+
+    public static float Value(float min, float max)
+    {
+        return Value() * (max - min) + min;
     }
 }

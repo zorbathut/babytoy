@@ -111,7 +111,7 @@ static class Util
         foreach (var element in container)
         {
             float tweight = weight(element);
-            if (tweight / (cweight + tweight) >= Rand.Value)
+            if (tweight / (cweight + tweight) >= Rand.Value())
             {
                 current = element;
             }

@@ -7,11 +7,18 @@ class Bootstrap : Node
 {
     bool processed = false;
 
-    struct ButtonInfo
+    class ButtonInfo
     {
         public KeyList key;
         public ButtonDef def;
         public Node2D node;
+
+        public RandomCurve r = new RandomCurve();
+        public RandomCurve g = new RandomCurve();
+        public RandomCurve b = new RandomCurve();
+
+        public RandomCurve x = new RandomCurve();
+        public RandomCurve y = new RandomCurve();
     }
     // this is slow but it doesn't matter because keyboards don't have that many buttons
     List<ButtonInfo> buttons = new List<ButtonInfo>();
@@ -87,7 +94,7 @@ class Bootstrap : Node
                     {
                         key = (KeyList)Enum.Parse(typeof(KeyList), button.defName);
                     }
-                    catch (ArgumentException e)
+                    catch (ArgumentException)
                     {
                         Dbg.Inf($"Failed to parse {button.defName}");
                     }
@@ -99,6 +106,11 @@ class Bootstrap : Node
                 }
             }
             processed = true;
+        }
+
+        foreach (var button in buttons)
+        {
+            button.node.FindNode<Sprite>("image").SelfModulate = new Color(button.r.Evaluate(), button.g.Evaluate(), button.b.Evaluate());
         }
     }
 
