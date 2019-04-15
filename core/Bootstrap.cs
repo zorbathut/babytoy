@@ -53,9 +53,10 @@ class Bootstrap : Node
         if (!processed)
         {
             var samples = new List<AudioInfo>();
-            foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".wav")))
+
+            foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".wav.import")))
             {
-                samples.Add(new AudioInfo() { stream = ResourceLoader.Load(fname) as AudioStream, weight = 1 });
+                samples.Add(new AudioInfo() { stream = ResourceLoader.Load(fname.Substring(0, fname.Length - 7)) as AudioStream, weight = 1 });
             }
 
             var buttonresource = ResourceLoader.Load("res://button/button.tscn") as PackedScene;

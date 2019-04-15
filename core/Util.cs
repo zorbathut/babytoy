@@ -7,6 +7,9 @@ static class Util
 {
     public static IEnumerable<string> GetFilesFromDir(string dirname)
     {
+        if (dirname == "res://")
+            dirname = "res:/";
+        
         var dir = new Directory();
         dir.Open(dirname);
         dir.ListDirBegin(skipNavigational: true);
@@ -35,7 +38,12 @@ static class Util
     public static string GetFileAsString(string path)
     {
         var file = new File();
-        file.Open(path, (int)File.ModeFlags.Read);
+        var openerror = file.Open(path, (int)File.ModeFlags.Read);
+        if (openerror != Error.Ok)
+        {
+            Dbg.Err($"Failure opening file {path}: {openerror}");
+            return "";
+        }
         var result = file.GetAsText();
         file.Close();
         return result;
