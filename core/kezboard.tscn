@@ -1,4 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://music/Angel Share.ogg" type="AudioStream" id=1]
 
 [node name="Node2D" type="Node2D"]
 
@@ -6,4 +8,9 @@
 position = Vector2( 1184, 416 )
 current = true
 zoom = Vector2( 1.5, 1.5 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -15.0
+autoplay = true
 
