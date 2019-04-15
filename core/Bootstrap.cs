@@ -70,6 +70,7 @@ class Bootstrap : Node
                 buttoninstance.Position = button.position * buttonsize;
 
                 buttoninstance.FindNode<Sprite>("image").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.outline.png") as Texture;
+                buttoninstance.FindNode<Sprite>("flash").Texture = ResourceLoader.Load($"res://button/{(int)(button.size.y * 100)}.{(int)(button.size.x * 100)}.solid.png") as Texture;
 
                 var sample = samples.RandomElementByWeight(ai => ai.weight);
                 samples.Remove(sample);
@@ -128,6 +129,7 @@ class Bootstrap : Node
                 if (button.key == key)
                 {
                     button.node.FindNode<AudioStreamPlayer>("audio").Play();
+                    button.node.FindNode<AnimationPlayer>("player").Play("flash");
                 }
             }
         }
