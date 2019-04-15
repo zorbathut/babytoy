@@ -36,7 +36,7 @@ class Bootstrap : Node
         Def.Config.InfoHandler = str => GD.Print("INF: " + str);
         Def.Config.WarningHandler = str => { GD.Print("WRN: " + str); GD.PushWarning(str); };
         Def.Config.ErrorHandler = str => { GD.Print("ERR: " + str); GD.PushError(str); };
-                
+        
         // Spool up defs system
         var parser = new Def.Parser();
         foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".xml")))
@@ -44,6 +44,11 @@ class Bootstrap : Node
             parser.AddString(Util.GetFileAsString(fname), fname);
         }
         parser.Finish();
+
+        if (!Engine.IsEditorHint())
+        {
+            OS.WindowFullscreen = true;
+        }
     }
 
     public override void _PhysicsProcess(float delta)
