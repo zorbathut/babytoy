@@ -140,6 +140,7 @@ class Bootstrap : Node
                 {
                     button.node.FindNode<AudioStreamPlayer>("audio").Play();
                     button.node.FindNode<AnimationPlayer>("player").Play("flash");
+                    button.node.FindNode<AnimationPlayer>("player").Seek(0);    // want it to reset
                 }
             }
         }
