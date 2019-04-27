@@ -11,6 +11,6 @@ zoom = Vector2( 1.5, 1.5 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
-volume_db = -15.0
+volume_db = -20.0
 autoplay = true
 
