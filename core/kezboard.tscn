@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://music/Angel Share.ogg" type="AudioStream" id=1]
+[ext_resource path="res://core/shader_mat.tres" type="Material" id=2]
+[ext_resource path="res://button/100.100.outline.png" type="Texture" id=3]
 
 [node name="Node2D" type="Node2D"]
 
@@ -13,4 +15,10 @@ zoom = Vector2( 1.5, 1.5 )
 stream = ExtResource( 1 )
 volume_db = -20.0
 autoplay = true
+
+[node name="Sprite" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 1267.66, 405.085 )
+scale = Vector2( 35.6155, 21.1867 )
+texture = ExtResource( 3 )
 
