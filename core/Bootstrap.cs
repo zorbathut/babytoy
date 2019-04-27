@@ -6,6 +6,7 @@ using System.Linq;
 class Bootstrap : Node
 {
     bool processed = false;
+    WindowsBlocker blocker = null;
 
     class ButtonInfo
     {
@@ -49,6 +50,9 @@ class Bootstrap : Node
         {
             OS.WindowFullscreen = true;
         }
+
+        blocker = new WindowsBlocker();
+        blocker.Enable(true);
     }
 
     public override void _PhysicsProcess(float delta)
@@ -138,6 +142,20 @@ class Bootstrap : Node
                     button.node.FindNode<AnimationPlayer>("player").Play("flash");
                 }
             }
+        }
+    }
+
+    public override void _Notification(int what)
+    {
+        base._Notification(what);
+
+        if (what == Godot.MainLoop.NotificationWmFocusIn)
+        {
+            blocker.Enable(true);
+        }
+        else if (what == Godot.MainLoop.NotificationWmFocusOut)
+        {
+            blocker.Enable(false);
         }
     }
 }
