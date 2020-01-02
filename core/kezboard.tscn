@@ -21,4 +21,3 @@ material = ExtResource( 2 )
 position = Vector2( 1267.66, 405.085 )
 scale = Vector2( 35.6155, 21.1867 )
 texture = ExtResource( 3 )
-

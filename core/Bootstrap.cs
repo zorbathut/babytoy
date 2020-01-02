@@ -46,10 +46,10 @@ class Bootstrap : Node
         }
         parser.Finish();
 
-        if (!OS.IsDebugBuild())
-        {
+        //if (!OS.IsDebugBuild())
+        //{
             OS.WindowFullscreen = true;
-        }
+        //}
 
         blocker = new WindowsBlocker();
         blocker.Enable(true);
