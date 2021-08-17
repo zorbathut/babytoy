@@ -86,13 +86,13 @@ static class Util
 	public static object TryGetValue(this Godot.Collections.Dictionary dict, object key)
 	{
 		if (dict.Contains(key))
-        {
+		{
 			return dict[key];
-        }
+		}
 		else
-        {
+		{
 			return null;
-        }
+		}
 	}
 
 	public static IEnumerable<Node> GetParents(this Node node)

@@ -23,4 +23,12 @@
   <ItemGroup>
     <Content Include="core\*.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="core\curve.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="core\kezboard.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

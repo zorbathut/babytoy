@@ -1,6 +1,7 @@
 ﻿using Godot;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 class Bootstrap : Node
@@ -40,9 +41,17 @@ class Bootstrap : Node
         
         // Spool up defs system
         var parser = new Def.Parser();
-        foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".xml")))
+        if (System.IO.File.Exists("curve.xml"))
         {
-            parser.AddString(Util.GetFileAsString(fname), fname);
+            parser.AddString(System.IO.File.ReadAllText("curve.xml"), "curve.xml");
+            parser.AddString(System.IO.File.ReadAllText("kezboard.xml"), "kezboard.xml");
+        }
+        else
+        {
+            foreach (var fname in Util.GetFilesFromDir("res://").Where(fname => !fname.Contains("/.") && fname.EndsWith(".xml")))
+            {
+                parser.AddString(Util.GetFileAsString(fname), fname);
+            }
         }
         parser.Finish();
 
