@@ -6,19 +6,20 @@ using System.Runtime.InteropServices;
 
 class WindowsBlocker
 {
-    private delegate IntPtr LowLevelKeyboardProcDelegate(int nCode, IntPtr wParam, ref KBDLLHOOKSTRUCT lParam);
+    #if true
+    private delegate IntPtr LowLevelKeyboardProcDelegate(int nCode, IntPtr wParam, IntPtr lParam);
 
     [DllImport("kernel32", CharSet = CharSet.Auto, SetLastError = true)]
     private static extern IntPtr GetModuleHandle(string lpModuleName);
 
-    [DllImport("user32", EntryPoint = "SetWindowsHookEx", SetLastError = true)]
-    private static extern IntPtr SetWindowsHookEx(int idHook, LowLevelKeyboardProcDelegate lpfn, IntPtr hMod, uint dwThreadId);
+    [DllImport("user32", EntryPoint = "SetWindowsHookExA", SetLastError = true)]
+    private static extern IntPtr SetWindowsHookExA(int idHook, LowLevelKeyboardProcDelegate lpfn, IntPtr hMod, uint dwThreadId);
 
     [DllImport("user32", EntryPoint = "UnhookWindowsHookEx", SetLastError = true)]
     private static extern bool UnhookWindowsHookEx(IntPtr hHook);
 
     [DllImport("user32", EntryPoint = "CallNextHookEx", SetLastError = true)]
-    private static extern IntPtr CallNextHookEx(IntPtr hHook, int nCode, IntPtr wParam, ref KBDLLHOOKSTRUCT lParam);
+    private static extern IntPtr CallNextHookEx(IntPtr hHook, int nCode, IntPtr wParam, IntPtr lParam);
 
     private const int WH_KEYBOARD_LL = 13;
 
@@ -42,12 +43,17 @@ class WindowsBlocker
 
     private static IntPtr hookHandle;
 
-    private IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, ref KBDLLHOOKSTRUCT lParam)
+    private static IntPtr LowLevelKeyboardProc(int nCode, IntPtr wParam, IntPtr lParam)
     {
         bool blnEat = false;
 
+        Dbg.Inf("LLKPA");
+
         try
         {
+            var o = (KBDLLHOOKSTRUCT)Marshal.PtrToStructure(lParam, typeof(KBDLLHOOKSTRUCT));
+
+            Dbg.Inf("LLKP");
             switch (wParam.ToInt64())
             {
                 case 256:
@@ -56,22 +62,22 @@ class WindowsBlocker
                 case 261:
 
                     //Alt+Tab, Alt+Esc, Ctrl+Esc, Windows Key,
-                    blnEat = ((lParam.vkCode == 9) && (lParam.flags == 32))  // alt+tab
-                        | ((lParam.vkCode == 27) && (lParam.flags == 32)) // alt+esc
-                        | ((lParam.vkCode == 27) && (lParam.flags == 0))  // ctrl+esc
-                        | ((lParam.vkCode == 91) && (lParam.flags == 1))  // left winkey
-                        | ((lParam.vkCode == 92) && (lParam.flags == 1))
-                        | ((lParam.vkCode == 73) && (lParam.flags == 0));
+                    blnEat = ((o.vkCode == 9) && (o.flags == 32))  // alt+tab
+                        | ((o.vkCode == 27) && (o.flags == 32)) // alt+esc
+                        | ((o.vkCode == 27) && (o.flags == 0))  // ctrl+esc
+                        | ((o.vkCode == 91) && (o.flags == 1))  // left winkey
+                        | ((o.vkCode == 92) && (o.flags == 1))
+                        | ((o.vkCode == 73) && (o.flags == 0));
 
                     break;
             }
-
-
         }
         catch (Exception ex)
         {
             Dbg.Ex(ex);
         }
+
+        Dbg.Inf($"LLKP BIE {blnEat}");
 
         if (blnEat == true)
         {
@@ -79,7 +85,7 @@ class WindowsBlocker
         }
         else
         {
-            return CallNextHookEx(hookHandle, nCode, wParam, ref lParam);
+            return CallNextHookEx(hookHandle, nCode, wParam, lParam);
         }
     }
 
@@ -89,7 +95,9 @@ class WindowsBlocker
         {
             using (ProcessModule curModule = Process.GetCurrentProcess().MainModule)
             {
-                hookHandle = SetWindowsHookEx(WH_KEYBOARD_LL, LowLevelKeyboardProc, GetModuleHandle(curModule.ModuleName), 0);
+                Dbg.Inf($"Hookening");
+
+                hookHandle = SetWindowsHookExA(WH_KEYBOARD_LL, LowLevelKeyboardProc, GetModuleHandle(curModule.ModuleName), 0);
 
                 if (hookHandle.ToInt64() == 0)
                 {
@@ -103,4 +111,7 @@ class WindowsBlocker
             hookHandle = new IntPtr(0);
         }
     }
+    #else
+    public void Enable(bool enabled) { }
+    #endif
 }
